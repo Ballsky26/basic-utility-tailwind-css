@@ -23,41 +23,59 @@
             fontFamily: {
               inter: ["Inter"],
             },
+            colors: {
+              ballsky: "#bada55",
+              kopi: "#c0ffee",
+            },
           },
         },
       };
     </script>
   </head>
   <body>
-    <h1>Hello Ballsky</h1>
-    <section class="mb-10">
-      <h2>Spacing</h2>
+    <h1 class="text-6xl font-bold text-center my-10">
+      Hello
+      <span
+        class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent"
+        >Ballsky</span
+      >
+    </h1>
+    <section class="mb-10 bg-indigo-200">
+      <h2 class="text-3xl text-center">Spacing</h2>
       <div class="m-13">Margin</div>
       <div class="p-8">Padding</div>
     </section>
 
-    <section class="mb-10">
-      <h2>Sizing</h2>
-      <div class="w-32 h-32">Kotak 1</div>
+    <section
+      class="mb-13 bg-gradient-to-r from-indigo-200 via-red-400 to-yellow-300"
+    >
+      <h2 class="text-3xl text-center bg-blue-300">Sizing</h2>
+      <div class="w-32 h-32 bg-yellow-200">Kotak 1</div>
       <div class="max-w-xs min-h-screen">Kotak 2</div>
     </section>
 
     <section class="mb-96 font-inter max-w-3xl mx-auto">
-      <h2 class="mb-4 text-4xl">Tailwind CSS Typography</h2>
-      <div class="mb-2 text-lg font-bold">By Ballsky 21 Februari 2023</div>
+      <h2 class="mb-4 text-4xl bg-green-400">Tailwind CSS Typography</h2>
+      <div class="mb-2 text-lg font-bold text-gray-500">
+        By <a href="#" class="text-gray-700 font-semibold">Ballsky</a> 21
+        Februari 2023
+      </div>
       <p class="mb-4">
         Lorem ipsum dolor sit amet,
-        <a href="#" class="underline font-semibold">consectetur</a> adipisicing
-        elit. Est laudantium ullam earum doloribus laborum? Nisi error harum
-        officiis sequi provident iusto nam. Cum assumenda autem adipisci at fuga
-        sint, quos in odit ex, doloribus ipsum exercitationem iste ipsam nisi
-        dicta optio dolore velit. Aperiam atque, dolorem, laboriosam quidem
-        omnis, voluptatum molestiae illo adipisci harum vel suscipit inventore
-        facere maiores est consectetur. Esse beatae doloremque soluta tenetur id
-        quis, eum distinctio similique veritatis veniam asperiores, temporibus
-        voluptatibus tempora quibusdam eveniet consequuntur. Fugiat beatae
-        necessitatibus harum quis impedit totam, esse suscipit vitae placeat,
-        obcaecati fuga non dolores expedita pariatur, et ad odit.
+        <a href="#" class="underline font-semibold text-blue-600"
+          >consectetur</a
+        >
+        adipisicing elit. Est laudantium ullam earum doloribus laborum? Nisi
+        error harum officiis sequi provident iusto nam. Cum assumenda autem
+        adipisci at fuga sint, quos in odit ex, doloribus ipsum exercitationem
+        iste ipsam nisi dicta optio dolore velit. Aperiam atque, dolorem,
+        laboriosam quidem omnis, voluptatum molestiae illo adipisci harum vel
+        suscipit inventore facere maiores est consectetur. Esse beatae
+        doloremque soluta tenetur id quis, eum distinctio similique veritatis
+        veniam asperiores, temporibus voluptatibus tempora quibusdam eveniet
+        consequuntur. Fugiat beatae necessitatibus harum quis impedit totam,
+        esse suscipit vitae placeat, obcaecati fuga non dolores expedita
+        pariatur, et ad odit.
       </p>
       <blockquote class="mb-4 italic font-thin text-xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, soluta?
