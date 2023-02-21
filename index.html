@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Basic Utility</title>
+    <style type="text/tailwindcss">
+      * {
+        border: 1px solid red;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+              13: "3.25rem",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
     <h1>Hello Ballsky</h1>
     <section>
       <h2>Spacing</h2>
+      <div class="m-13">Margin</div>
     </section>
   </body>
 </html>
